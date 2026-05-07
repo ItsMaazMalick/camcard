@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans), sans-serif;
+  background: #f9fafb;
+}
+
+.leftSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.rightSide {
+  flex: 1;
+  background: linear-gradient(135deg, #e6f0ff 0%, #b3d4ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .rightSide {
+    display: none;
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0070f3;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #0070f3;
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.1);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+.forgotLink {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.forgotLink:hover {
+  text-decoration: underline;
+}
+
+.submitBtn {
+  width: 100%;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 0.875rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: 1rem;
+}
+
+.submitBtn:hover {
+  background: #005bb5;
+}
+
+.signupLink {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.signupLink a {
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signupLink a:hover {
+  text-decoration: underline;
+}
+
+.illustration {
+  max-width: 80%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}

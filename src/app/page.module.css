@@ -1,0 +1,190 @@
+.container {
+  font-family: var(--font-geist-sans), sans-serif;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0070f3;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: #0070f3;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.signInBtn {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.signInBtn:hover {
+  color: #0070f3;
+}
+
+.tryFreeBtn {
+  background: #0070f3;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.tryFreeBtn:hover {
+  background: #005bb5;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+  min-height: calc(100vh - 80px);
+}
+
+.heroBadge {
+  background: #e6f0ff;
+  color: #0070f3;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.heroTitle {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #111;
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.heroTitle span {
+  color: #0070f3;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: #666;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.primaryBtn {
+  background: #0070f3;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px 0 rgba(0, 112, 243, 0.39);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 112, 243, 0.23);
+}
+
+.secondaryBtn {
+  background: #fff;
+  color: #0070f3;
+  padding: 1rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 1px solid #0070f3;
+  transition: background 0.2s;
+}
+
+.secondaryBtn:hover {
+  background: #f0f7ff;
+}
+
+.features {
+  padding: 5rem 5%;
+  background: #fff;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.featureCard {
+  padding: 2rem;
+  border-radius: 16px;
+  background: #f9fafb;
+  border: 1px solid #eaeaea;
+  transition: transform 0.2s;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.featureIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0070f3;
+}
+
+.featureTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.featureDesc {
+  color: #666;
+  line-height: 1.5;
+}

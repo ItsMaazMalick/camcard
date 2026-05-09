@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.camcard.com)",
-      "Bash(pnpm build *)",
-      "Bash(node -e \"const l = require\\('/home/maaz/Web/Personal/camcard/node_modules/lucide-react'\\); console.log\\(Object.keys\\(l\\).filter\\(k => /twitter|youtube|facebook|linkedin|instagram|x|social/i.test\\(k\\)\\).join\\(', '\\)\\)\")"
-    ]
-  }
-}
